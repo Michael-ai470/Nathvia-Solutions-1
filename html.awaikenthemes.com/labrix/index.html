@@ -50,7 +50,7 @@
 			<nav class="navbar navbar-expand-lg">
 				<div class="container">
 					<!-- Logo Start -->
-					<a class="navbar-brand" href="index.html">
+					<a class="navbar-brand" href="index-video.html">
 						<img src="images/logo.svg" alt="Logo">
 					</a>
 					<!-- Logo End -->
@@ -59,17 +59,17 @@
 					<div class="collapse navbar-collapse main-menu">
                         <div class="nav-menu-wrapper">
                             <ul class="navbar-nav mr-auto" id="menu">
-                                <li class="nav-item submenu"><a class="nav-link" href="index.html">Home</a>
-                                    <ul>
+                                <li class="nav-item"><a class="nav-link" href="index.html">Home</a>
+                                    <!-- <ul>
                                         <li class="nav-item"><a class="nav-link" href="index-2.html">Home - Main</a></li>
                                         <li class="nav-item"><a class="nav-link" href="index-video.html">Home - Video</a></li>
                                         <li class="nav-item"><a class="nav-link" href="index-slider.html">Home - Slider</a></li>
-                                    </ul>
+                                    </ul> -->
                                 </li>
                                 <li class="nav-item"><a class="nav-link" href="about.html">About Us</a>
                                 <li class="nav-item"><a class="nav-link" href="services.html">Services</a></li>
                                 <li class="nav-item"><a class="nav-link" href="blog.html">Blog</a></li>
-                                <li class="nav-item submenu"><a class="nav-link" href="#">Pages</a>
+                                <!-- <li class="nav-item submenu"><a class="nav-link" href="#">Pages</a>
                                     <ul>
                                         <li class="nav-item"><a class="nav-link" href="service-single.html">Service Details</a></li>
                                         <li class="nav-item"><a class="nav-link" href="blog-single.html">Blog Details</a></li>
@@ -84,7 +84,7 @@
                                         <li class="nav-item"><a class="nav-link" href="faqs.html">FAQs</a></li>
                                         <li class="nav-item"><a class="nav-link" href="404.html">404</a></li>
                                     </ul>
-                                </li>
+                                </li> -->
                                 <li class="nav-item"><a class="nav-link" href="contact.html">Contact Us</a></li>
                             </ul>
                         </div>
@@ -105,8 +105,21 @@
 	<!-- Header End -->
 
     <!-- Hero Section Start -->
-    <div class="hero dark-section parallaxie">
-         <div class="container">
+    <div class="hero hero-video dark-section">
+        <!-- Video Start -->
+        <div class="hero-bg-video">
+            <!-- Selfhosted Video Start -->
+            <!-- <video autoplay muted loop id="myvideo"><source src="images/hero-bg-video.mp4" type="video/mp4"></video> -->
+            <video autoplay muted loop id="myvideo"><source src="https://demo.awaikenthemes.com/assets/videos/labrix-video.mp4" type="video/mp4"></video>
+            
+            <!-- Selfhosted Video End -->
+
+            <!-- Youtube Video Start -->
+            <!-- <div id="herovideo" class="player" data-property="{videoURL:'OjTRVpgtcG4',containment:'.hero-video', showControls:false, autoPlay:true, loop:true, vol:0, mute:false, startAt:0,  stopAt:296, opacity:1, addRaster:true, quality:'large', optimizeDisplay:true}"></div> -->
+            <!-- Youtube Video End -->
+        </div>
+        <!-- Video End -->
+        <div class="container">
             <div class="row align-items-center">
                 <div class="col-lg-8">
                     <!-- Hero Content Start -->
@@ -174,16 +187,6 @@
                         <!-- Hero Body End -->
                     </div>
                     <!-- Hero Content End -->
-                </div>
-
-                <div class="col-lg-4">
-                    <!-- Hero Video Circle Start -->
-                    <div class="hero-video-circle">
-                        <a href="https://www.youtube.com/watch?v=Y-x0efG1seA" class="popup-video" data-cursor-text="Play">
-                            <img src="images/video-circle.svg" alt="">
-                        </a>
-                    </div>
-                    <!-- Hero Video Circle End -->
                 </div>
             </div>
         </div>
@@ -896,34 +899,6 @@
         </div>
     </div>
     <!-- Case Study Section End -->
-
-    <!-- Intro Video Section Start -->
-    <div class="intro-video bg-section">
-        <div class="container-fluid">
-            <div class="row no-gutters align-items-center">
-                <div class="col-lg-12">
-                    <!-- Intro Video Box Start -->
-                    <div class="intro-video-box">
-                        <!-- Intro Video Image Start -->
-                        <div class="intro-video-image">
-                            <figure>
-                                <img src="images/intro-video-image.jpg" alt="">
-                            </figure>
-                        </div>
-                        <!-- Intro Video Image End -->
-
-                        <!-- Video Play Button Start -->
-                        <div class="video-play-border-button">
-                            <a href="https://www.youtube.com/watch?v=Y-x0efG1seA" class="popup-video" data-cursor-text="Play">Play</a>
-                        </div>
-                        <!-- Video Play Button End -->                      
-                    </div>
-                    <!-- Intro Video Box End -->
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Intro Video Section End -->
 
     <!-- How It Work Section Start -->
     <div class="how-it-work">
