@@ -2600,10 +2600,10 @@ header.main-header .header-sticky.active{
 
 .footer-links-box{
 	display: flex;
-	flex-wrap: wrap;
-	justify-content: space-between;
-	gap: 20px;
-	margin: 0 1.563vw;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 20px;
+    margin: 0 1.563vw;
 }
 
 .footer-links h3{
