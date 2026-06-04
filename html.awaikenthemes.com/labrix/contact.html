@@ -227,7 +227,7 @@
 
                             <!-- Contact Form Start -->
                             <div class="contact-form wow fadeInUp" data-wow-delay="0.4s">
-                                <form id="contactForm" action="#" method="POST" data-toggle="validator">
+                                <form id="contactForm" action="contact.php" method="POST" data-toggle="validator">
                                     <div class="row justify-content-center">                                
                                         <div class="form-group col-md-6 mb-4">
                                             <input type="text" name="fname" class="form-control" id="fname" placeholder="First Name" required>
@@ -295,7 +295,7 @@
 
                             <!-- Footer Newsletter Form Start -->
                             <div class="footer-newsletter-form">
-                                <form id="newslettersForm" action="#" method="POST">
+                                <form id="newslettersForm" action="newsletter.php" method="POST">
                                     <div class="form-group">
                                         <input type="email" name="mail" class="form-control"  id="mail" placeholder="Enter Your E-mail Address" required>
                                         <button type="submit" class="newsletter-btn"><img src="images/arrow-primary.svg" alt=""></button>
@@ -304,6 +304,7 @@
                                         <input type="checkbox" id="#" name="#">
                                         <label class="form-label">I agree to the <a href="#">Privacy Policy</a>.</label>
                                     </div>
+                                    <div id="newsletterMsg" style="margin-top:8px; font-size:14px;"></div>
                                 </form>
                             </div>
                             <!-- Footer Newsletter Form End -->
@@ -389,6 +390,75 @@
     <!-- Main Custom js file -->
     <script src="js/function.js"></script>
 	<script src="../../demo.awaikenthemes.com/assets/js/theme-panel.js"></script>
+
+
+    <script>
+        document.getElementById("contactForm").addEventListener("submit", function (e) {
+            e.preventDefault();
+
+            const form = this;
+            const submitBtn = form.querySelector("button[type='submit']");
+            const msgBox = document.getElementById("msgSubmit");
+
+            submitBtn.disabled = true;
+            submitBtn.innerHTML = "<span>Sending...</span>";
+
+            fetch("contact.php", {
+            method: "POST",
+            body: new FormData(form),
+        })
+        .then((res) => res.json())
+        .then((data) => {
+            msgBox.classList.remove("hidden");
+            if (data.status === "success") {
+            msgBox.style.color = "green";
+            msgBox.textContent = data.message;
+            form.reset();
+            } else {
+            msgBox.style.color = "red";
+            msgBox.textContent = data.message;
+            }
+            submitBtn.disabled = false;
+            submitBtn.innerHTML = "<span>Submit Message</span>";
+        })
+        .catch(() => {
+            msgBox.classList.remove("hidden");
+            msgBox.style.color = "red";
+            msgBox.textContent = "Network error. Please try again.";
+            submitBtn.disabled = false;
+            submitBtn.innerHTML = "<span>Submit Message</span>";
+        });
+    });
+    </script>
+
+    <script>
+    document.getElementById("newslettersForm").addEventListener("submit", function (e) {
+        e.preventDefault();
+
+        const form = this;
+        const msgBox = document.getElementById("newsletterMsg");
+        const btn = form.querySelector("button[type='submit']");
+
+        btn.disabled = true;
+
+        fetch("newsletter.php", {
+        method: "POST",
+        body: new FormData(form),
+        })
+        .then((res) => res.json())
+        .then((data) => {
+            msgBox.style.color = data.status === "success" ? "lightgreen" : "salmon";
+            msgBox.textContent = data.message;
+            if (data.status === "success") form.reset();
+            btn.disabled = false;
+        })
+        .catch(() => {
+            msgBox.style.color = "salmon";
+            msgBox.textContent = "Network error. Please try again.";
+            btn.disabled = false;
+        });
+    });
+    </script>
 </body>
 </html>
 
