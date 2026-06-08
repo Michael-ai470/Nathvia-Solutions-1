@@ -1,47 +1,466 @@
-<?php
-header('Content-Type: application/json');
+<!DOCTYPE html>
+<html lang="zxx">
+<head>
+	<!-- Meta -->
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+	<meta name="description" content="">
+	<meta name="keywords" content="">
+	<meta name="author" content="Awaiken">
+	<!-- Page Title -->
+    <title>Labrix - Laboratory & Science Research HTML Template</title>
+	<!-- Favicon Icon -->
+	<link rel="shortcut icon" type="image/x-icon" href="images/favicon.png">
+	<!-- Google Fonts Css-->
+	<link rel="preconnect" href="https://fonts.googleapis.com/">
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&amp;family=Sora:wght@100..800&amp;display=swap" rel="stylesheet">
+	<!-- Bootstrap Css -->
+	<link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+	<!-- SlickNav Css -->
+	<link href="css/slicknav.min.css" rel="stylesheet">
+	<!-- Swiper Css -->
+	<link rel="stylesheet" href="css/swiper-bundle.min.css">
+	<!-- Font Awesome Icon Css-->
+	<link href="css/all.min.css" rel="stylesheet" media="screen">
+	<!-- Animated Css -->
+	<link href="css/animate.css" rel="stylesheet">
+    <!-- Magnific Popup Core Css File -->
+	<link rel="stylesheet" href="css/magnific-popup.css">
+	<!-- Mouse Cursor Css File -->
+	<link rel="stylesheet" href="css/mousecursor.css">
+	<!-- Main Custom Css -->
+	<link href="css/custom.css" rel="stylesheet" media="screen">
+</head>
+<body>
 
-if ($_SERVER["REQUEST_METHOD"] == "POST") {
+    <!-- Preloader Start -->
+	<div class="preloader">
+		<div class="loading-container">
+			<div class="loading"></div>
+			<div id="loading-icon"><img src="images/loader.svg" alt=""></div>
+		</div>
+	</div>
+	<!-- Preloader End -->
 
-    // Sanitize inputs
-    $fname   = htmlspecialchars(trim($_POST["fname"] ?? ""));
-    $lname   = htmlspecialchars(trim($_POST["lname"] ?? ""));
-    $email   = filter_var(trim($_POST["email"] ?? ""), FILTER_SANITIZE_EMAIL);
-    $phone   = htmlspecialchars(trim($_POST["phone"] ?? ""));
-    $message = htmlspecialchars(trim($_POST["message"] ?? ""));
+    <!-- Header Start -->
+	<header class="main-header">
+		<div class="header-sticky">
+			<nav class="navbar navbar-expand-lg">
+				<div class="container">
+					<!-- Logo Start -->
+				<a class="navbar-brand" href="index.php">
+					<img src="images/logo.png" alt="Logo">
+				</a>
+					<!-- Main Menu Start -->
+					<div class="collapse navbar-collapse main-menu">
+                        <div class="nav-menu-wrapper">
+                            <ul class="navbar-nav mr-auto" id="menu">
+                                <li class="nav-item"><a class="nav-link" href="index.php">Home</a>
+                                </li>
+                                <li class="nav-item"><a class="nav-link" href="about.php">About Us</a></li>
+                                <li class="nav-item"><a class="nav-link" href="services.php">Services</a></li>
+                                <li class="nav-item"><a class="nav-link" href="blog.php">Blog</a></li>
+                                <li class="nav-item"><a class="nav-link active" style="color:#BEF1DE;" href="contact.php">Contact Us</a></li>
+                            </ul>
+                        </div>
+                        
+                        <!-- Header Btn Start -->
+                        <div class="header-btn">
+                            <a href="contact.php" class="btn-default btn-highlighted">contact us</a>
+                        </div>
+                        <!-- Header Btn End -->
+					</div>
+					<!-- Main Menu End -->
+					<div class="navbar-toggle"></div>
+				</div>
+			</nav>
+			<div class="responsive-menu"></div>
+		</div>
+	</header>
+	<!-- Header End -->
 
-    // Basic validation
-    if (empty($fname) || empty($lname) || empty($email) || empty($phone)) {
-        echo json_encode(["status" => "error", "message" => "Please fill in all required fields."]);
-        exit;
-    }
 
-    if (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
-        echo json_encode(["status" => "error", "message" => "Invalid email address."]);
-        exit;
-    }
 
-    // Email settings
-    $to      = "info@nathviasolutions.com"; // <-- recipient
-    $subject = "New Contact Form Message from $fname $lname";
-    $body    = "You have received a new message:\n\n"
-             . "Name:    $fname $lname\n"
-             . "Email:   $email\n"
-             . "Phone:   $phone\n\n"
-             . "Message:\n$message";
+    <!-- Page Header Start -->
+    <div class="page-header parallaxie">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <!-- Page Header Box Start -->
+                    <div class="page-header-box">
+                        <h1 class="text-anime-style-3" data-cursor="-opaque">Contact us</h1>                        
+                    </div>
+                    <!-- Page Header Box End -->
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Page Header End -->
 
-    $headers = "From: $email\r\n"
-             . "Reply-To: $email\r\n"
-             . "X-Mailer: PHP/" . phpversion();
+    <!-- Scrolling Ticker Section Start -->
+    <div class="our-scrolling-ticker">
+        <!-- Scrolling Ticker Start -->
+        <div class="scrolling-ticker-box">
+            <div class="scrolling-content">
+                <span><img src="images/icon-sparkle.svg" alt="">Diagnostic</span>
+                <span><img src="images/icon-sparkle.svg" alt="">Threat Assessment</span>
+                <span><img src="images/icon-sparkle.svg" alt="">Control Automation</span>
+                <span><img src="images/icon-sparkle.svg" alt="">Risk Monitoring</span>
+                <span><img src="images/icon-sparkle.svg" alt="">Compliance</span>
+                <span><img src="images/icon-sparkle.svg" alt="">AI-Driven Insights</span>
+                <span><img src="images/icon-sparkle.svg" alt="">Vulnerability Management</span>
+                <span><img src="images/icon-sparkle.svg" alt="">Cloud Security</span>
+                <span><img src="images/icon-sparkle.svg" alt="">GRC Automation</span>
+            </div>
 
-    if (mail($to, $subject, $body, $headers)) {
-        echo json_encode(["status" => "success", "message" => "Your message was sent successfully!"]);
-    } else {
-        echo json_encode(["status" => "error", "message" => "Something went wrong. Please try again."]);
-    }
+            <div class="scrolling-content">
+                <span><img src="images/icon-sparkle.svg" alt="">Diagnostic</span>
+                <span><img src="images/icon-sparkle.svg" alt="">Threat Assessment</span>
+                <span><img src="images/icon-sparkle.svg" alt="">Control Automation</span>
+                <span><img src="images/icon-sparkle.svg" alt="">Risk Monitoring</span>
+                <span><img src="images/icon-sparkle.svg" alt="">Compliance</span>
+                <span><img src="images/icon-sparkle.svg" alt="">AI-Driven Insights</span>
+                <span><img src="images/icon-sparkle.svg" alt="">Vulnerability Management</span>
+                <span><img src="images/icon-sparkle.svg" alt="">Cloud Security</span>
+                <span><img src="images/icon-sparkle.svg" alt="">GRC Automation</span>
+            </div>
+        </div>
+        <!-- Scrolling Ticker End -->
+    </div>
+    <!-- Scrolling Ticker Section End -->
 
-} else {
-    http_response_code(405);
-    echo json_encode(["status" => "error", "message" => "Method not allowed."]);
-}
-?>
+    <!-- Page Contact Us Start -->
+    <div class="page-contact-us">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <!-- Contact Us Box Start -->
+                    <div class="contact-us-box">
+                        <!-- Contact Us Content Start -->
+                        <div class="contact-us-content">
+                            <!-- Section Title Start -->
+                            <div class="section-title">
+                                <h3 class="wow fadeInUp">Contact us</h3>
+                                <h2 class="text-anime-style-3" data-cursor="-opaque">Have Questions? We're Ready to Help</h2>
+                                <p class="wow fadeInUp" data-wow-delay="0.2s">Whether you're looking to demo, inquire about our platform, or simply have a question — we're just a message away. Reach out and we'll get back to you shortly.</p>
+                            </div>
+                            <!-- Section Title End -->
+
+                            <!-- Contact Info List Start -->
+                            <div class="contact-info-list">
+                                <!-- Contact Info Item Start -->
+                                <div class="contact-info-item wow fadeInUp" data-wow-delay="0.4s">
+                                    <div class="icon-box">
+                                        <img src="images/icon-phone.svg" alt="">
+                                    </div>
+                                    <div class="contact-item-content">
+                                        <p>Contact</p>
+                                        <h3><a href="tel:246333085">+234-8000-000-000</a></h3>
+                                    </div>
+                                </div>
+                                <!-- Contact Info Item End -->
+
+                                <!-- Contact Info Item Start -->
+                                <div class="contact-info-item wow fadeInUp" data-wow-delay="0.6s">
+                                    <div class="icon-box">
+                                        <img src="images/icon-mail.svg" alt="">
+                                    </div>
+                                    <div class="contact-item-content">
+                                        <p>Email</p>
+                                        <h3><a href="mailto:info@domain.com">info@nathviasolutions.com</a></h3>
+                                    </div>
+                                </div>
+                                <!-- Contact Info Item End -->
+
+                                <!-- Contact Info Item Start -->
+                                <div class="contact-info-item wow fadeInUp" data-wow-delay="0.8s">
+                                    <div class="icon-box">
+                                        <img src="images/icon-location.svg" alt="">
+                                    </div>
+                                    <div class="contact-item-content">
+                                        <p>Address</p>
+                                        <h3>123 Creative, Design District, London</h3>
+                                    </div>
+                                </div>
+                                <!-- Contact Info Item End -->
+                            </div>
+                            <!-- Contact Info List End -->
+                        </div>
+                        <!-- Contact Us Content End -->
+
+                        <!-- Contact Us Image Start -->
+                        <div class="contact-us-image">
+                            <div class="contact-us-img">
+                                <figure class="image-anime">
+                                    <img src="images/contact-us-image.jpg" alt="">
+                                </figure>
+                            </div>
+                        
+                            </div>
+                            <!-- Working Hours Box End -->
+                        </div>
+                        <!-- Contact Us Image End -->                        
+                    </div>
+                    <!-- Contact Us Box End -->
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Page Contact Us End -->
+
+    <!-- Contact Form Map Section Start -->
+    <div class="contact-form-map">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <!-- Contact Form Box start -->
+                    <div class="contact-form-box" style="display:block;">
+                        <div class="contact-us-form" style="width:100%; max-width:900px; margin:0 auto;">
+                            <!-- Section Title Start -->
+                            <div class="section-title text-center">
+                                <h2 class="text-anime-style-3" data-cursor="-opaque">Get in touch with us</h2>
+                                <p class="wow fadeInUp" data-wow-delay="0.2s">We're here to answer your questions & explore new security possibilities together.</p>
+                            </div>
+                            <!-- Section Title End -->
+
+                            <!-- Contact Form Start -->
+                            <div class="contact-form wow fadeInUp" data-wow-delay="0.4s">
+                                <form id="contactForm" action="contact-handler.php" method="POST" data-toggle="validator">
+                                    <div class="row justify-content-center">                                
+                                        <div class="form-group col-md-6 mb-4">
+                                            <input type="text" name="fname" class="form-control" id="fname" placeholder="First Name" required>
+                                            <div class="help-block with-errors"></div>
+                                        </div>
+                                        
+                                        <div class="form-group col-md-6 mb-4">
+                                            <input type="text" name="lname" class="form-control" id="lname" placeholder="Last Name" required>
+                                            <div class="help-block with-errors"></div>
+                                        </div>
+                                        
+                                        <div class="form-group col-md-6 mb-4">
+                                            <input type="email" name="email" class="form-control" id="email" placeholder="Email" required>
+                                            <div class="help-block with-errors"></div>
+                                        </div>
+                                        
+                                        <div class="form-group col-md-6 mb-4">
+                                            <input type="text" name="phone" class="form-control" id="phone" placeholder="Phone" required>
+                                            <div class="help-block with-errors"></div>
+                                        </div>
+                                        
+                                        <div class="form-group col-md-12 mb-5">
+                                            <textarea name="message" class="form-control" id="message" rows="4" placeholder="Message..."></textarea>
+                                            <div class="help-block with-errors"></div>
+                                        </div>
+
+                                        <div class="col-md-12 text-center">
+                                            <button type="submit" class="btn-default btn-highlighted"><span>Submit Message</span></button>
+                                            <div id="msgSubmit" class="h3 hidden"></div>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                            <!-- Contact Form End -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Contact Form Map Section End -->
+
+   <!-- Footer Start -->
+    <footer class="main-footer bg-section dark-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4">
+                    <!-- About Footer Start -->
+                    <div class="about-footer">
+                        <!-- Footer Logo Start -->
+                        <div class="footer-logo">
+                            <img src="images/footer-logo.png" width="100" height="40" alt="Logo">
+                        </div>
+                        <!-- Footer Logo End -->
+
+                        <!-- About Footer Content Start -->
+                        <div class="about-footer-content">
+                            <p>Our platform serves as a comprehensive hub for cybersecurity analysts, risk managers, compliance teams, and enterprise security leaders worldwide.</p>
+                        </div>           
+                        <!-- About Footer Content End -->
+
+                        <!-- Footer Newsletter Box Start -->
+                        <div class="footer-newsletter-box">
+                            <h3>Subscribe to our newsletter</h3>
+
+                            <!-- Footer Newsletter Form Start -->
+                            <div class="footer-newsletter-form">
+                                <form id="newslettersForm" action="newsletter.php" method="POST">
+                                    <div class="form-group">
+                                        <input type="email" name="mail" class="form-control"  id="mail" placeholder="Enter Your E-mail Address" required>
+                                        <button type="submit" class="newsletter-btn"><img src="images/arrow-primary.svg" alt=""></button>
+                                    </div>
+                                    <div class="form-group">
+                                        <input type="checkbox" id="#" name="#">
+                                        <label class="form-label">I agree to the <a href="#">Privacy Policy</a>.</label>
+                                    </div>
+                                    <div id="newsletterMsg" style="margin-top:8px; font-size:14px;"></div>
+                                </form>
+                            </div>
+                            <!-- Footer Newsletter Form End -->
+                        </div>
+                        <!-- Footer Newsletter Box End -->
+                    </div>
+                    <!-- About Footer End -->
+                </div>
+
+                <div class="col-lg-7 col-md-7">
+                    <!-- Footer Links Box Start -->
+                    <div class="footer-links-box">
+                        <!-- Footer Links Start -->
+                        <div class="footer-links">
+                            <h3>Quick Links</h3>
+                            <ul>
+                                <li><a href="index.php">Home</a></li>
+                                <li><a href="about.php">About us</a></li>
+                                <li><a href="services.php">services</a></li>
+                                <li><a href="contact.php">contact us</a></li>
+                                <li><a href="blog.php">Blog</a></li>
+                            </ul>
+                        </div>
+                        <!-- Footer Links End -->
+    
+                        <!-- Footer Links Start -->
+                        <div class="footer-links">
+                            <h3>Our Services</h3>
+                            <ul>
+                                <li><a href="services.php">Automated Control Testing</a></li>
+                                <li><a href="services.php">Threat Risk Assessments</a></li>
+                                <li><a href="services.php">Compliance Management</a></li>
+                                <li><a href="services.php">Risk Posture Monitoring</a></li>
+                            </ul>
+                        </div>
+                        <!-- Footer Links End -->
+                    </div>
+                    <!-- Footer Links Box End -->
+                </div>
+
+
+                <div class="col-lg-12">
+                    <!-- Footer Copyright Start -->
+                    <div class="footer-copyright-text">
+                        <p>Copyright © 2026 All Rights Reserved.</p>
+                    </div>
+                    <!-- Footer Copyright End -->
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Footer End -->
+
+    <!-- Jquery Library File -->
+    <script src="js/jquery-3.7.1.min.js"></script>
+    <script>window.jQuery || document.write('<script src="https://code.jquery.com/jquery-3.7.1.min.js"><\/script>');</script>
+    <!-- Bootstrap js file -->
+    <script src="js/bootstrap.min.js"></script>
+    <!-- Validator js file -->
+    <script src="js/validator.min.js"></script>
+    <!-- SlickNav js file -->
+    <script src="js/jquery.slicknav.js"></script>
+    <!-- Swiper js file -->
+    <script src="js/swiper-bundle.min.js"></script>
+    <!-- Counter js file -->
+    <script src="js/jquery.waypoints.min.js"></script>
+    <script src="js/jquery.counterup.min.js"></script>
+    <!-- Magnific js file -->
+    <script src="js/jquery.magnific-popup.min.js"></script>
+    <!-- SmoothScroll -->
+    <script src="js/SmoothScroll.js"></script>
+    <!-- Parallax js -->
+    <script src="js/parallaxie.js"></script>
+    <!-- MagicCursor js file -->
+    <script src="js/gsap.min.js"></script>
+    <script src="js/magiccursor.js"></script>
+    <!-- Text Effect js file -->
+    <script src="js/SplitText.js"></script>
+    <script src="js/ScrollTrigger.min.js"></script>
+    <!-- YTPlayer js File -->
+    <script src="js/jquery.mb.YTPlayer.min.js"></script>
+    <!-- Wow js file -->
+    <script src="js/wow.min.js"></script>
+    <!-- Main Custom js file -->
+    <script src="js/function.js"></script>
+	<script src="../../demo.awaikenthemes.com/assets/js/theme-panel.js"></script>
+
+
+    <script>
+        document.getElementById("contactForm").addEventListener("submit", function (e) {
+            e.preventDefault();
+
+            const form = this;
+            const submitBtn = form.querySelector("button[type='submit']");
+            const msgBox = document.getElementById("msgSubmit");
+
+            submitBtn.disabled = true;
+            submitBtn.innerHTML = "<span>Sending...</span>";
+
+            fetch("contact-handler.php", {
+            method: "POST",
+            body: new FormData(form),
+        })
+        .then((res) => res.json())
+        .then((data) => {
+            msgBox.classList.remove("hidden");
+            if (data.status === "success") {
+            msgBox.style.color = "green";
+            msgBox.textContent = data.message;
+            form.reset();
+            } else {
+            msgBox.style.color = "red";
+            msgBox.textContent = data.message;
+            }
+            submitBtn.disabled = false;
+            submitBtn.innerHTML = "<span>Submit Message</span>";
+        })
+        .catch(() => {
+            msgBox.classList.remove("hidden");
+            msgBox.style.color = "red";
+            msgBox.textContent = "Network error. Please try again.";
+            submitBtn.disabled = false;
+            submitBtn.innerHTML = "<span>Submit Message</span>";
+        });
+    });
+    </script>
+
+    <script>
+    document.getElementById("newslettersForm").addEventListener("submit", function (e) {
+        e.preventDefault();
+
+        const form = this;
+        const msgBox = document.getElementById("newsletterMsg");
+        const btn = form.querySelector("button[type='submit']");
+
+        btn.disabled = true;
+
+        fetch("newsletter.php", {
+        method: "POST",
+        body: new FormData(form),
+        })
+        .then((res) => res.json())
+        .then((data) => {
+            msgBox.style.color = data.status === "success" ? "lightgreen" : "salmon";
+            msgBox.textContent = data.message;
+            if (data.status === "success") form.reset();
+            btn.disabled = false;
+        })
+        .catch(() => {
+            msgBox.style.color = "salmon";
+            msgBox.textContent = "Network error. Please try again.";
+            btn.disabled = false;
+        });
+    });
+    </script>
+</body>
+</html>
+
+

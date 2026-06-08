@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="zxx">
 <head>
 	<!-- Meta -->
@@ -50,25 +50,25 @@
 			<nav class="navbar navbar-expand-lg">
 				<div class="container">
 					<!-- Logo Start -->
-				<a class="navbar-brand" href="index.html">
+				<a class="navbar-brand" href="index.php">
 					<img src="images/logo.png" alt="Logo">
 				</a>
 					<!-- Main Menu Start -->
 					<div class="collapse navbar-collapse main-menu">
                         <div class="nav-menu-wrapper">
                             <ul class="navbar-nav mr-auto" id="menu">
-                                <li class="nav-item"><a class="nav-link" href="index.html">Home</a>
+                                <li class="nav-item"><a class="nav-link" href="index.php">Home</a>
                                 </li>
-                                <li class="nav-item"><a class="nav-link" href="about.html">About Us</a></li>
-                                <li class="nav-item"><a class="nav-link" href="services.html">Services</a></li>
-                                <li class="nav-item"><a class="nav-link active" style="color:#BEF1DE;" href="blog.html">Blog</a></li>
-                                <li class="nav-item"><a class="nav-link" href="contact.html">Contact Us</a></li>
+                                <li class="nav-item"><a class="nav-link" href="about.php">About Us</a></li>
+                                <li class="nav-item"><a class="nav-link" href="services.php">Services</a></li>
+                                <li class="nav-item"><a class="nav-link active" style="color:#BEF1DE;" href="blog.php">Blog</a></li>
+                                <li class="nav-item"><a class="nav-link" href="contact.php">Contact Us</a></li>
                             </ul>
                         </div>
                         
                         <!-- Header Btn Start -->
                         <div class="header-btn">
-                            <a href="contact.html" class="btn-default btn-highlighted">contact us</a>
+                            <a href="contact.php" class="btn-default btn-highlighted">contact us</a>
                         </div>
                         <!-- Header Btn End -->
 					</div>
@@ -140,7 +140,7 @@
                     <div class="post-item wow fadeInUp">
                         <!-- Post Featured Image Start-->
                         <div class="post-featured-image">
-                            <a href="services.html" data-cursor-text="View">
+                            <a href="services.php" data-cursor-text="View">
                                 <figure class="image-anime">
                                     <img src="images/post-1.jpeg" alt="">
                                 </figure>    
@@ -152,13 +152,13 @@
                         <div class="post-item-body">
                             <!-- Post Item Content Start -->
                             <div class="post-item-content">
-                                <h2><a href="services.html">The CISO's Guide to Continuous Cyber Risk Monitoring in 2025</a></h2>
+                                <h2><a href="services.php">The CISO's Guide to Continuous Cyber Risk Monitoring in 2025</a></h2>
                             </div>
                             <!-- Post Item Content End -->
 
                             <!-- Post Item Readmore Button Start-->
                             <div class="post-item-btn">
-                                <a href="services.html" class="readmore-btn">learn more</a>
+                                <a href="services.php" class="readmore-btn">learn more</a>
                             </div>
                             <!-- Post Item Readmore Button End-->
                         </div>
@@ -172,7 +172,7 @@
                     <div class="post-item wow fadeInUp" data-wow-delay="0.2s">
                         <!-- Post Featured Image Start-->
                         <div class="post-featured-image">
-                            <a href="services.html" data-cursor-text="View">
+                            <a href="services.php" data-cursor-text="View">
                                 <figure class="image-anime">
                                     <img src="images/post-2.jpg" alt="">
                                 </figure>    
@@ -184,13 +184,13 @@
                         <div class="post-item-body">
                             <!-- Post Item Content Start -->
                             <div class="post-item-content">
-                                <h2><a href="services.html">Why Manual Risk Assessments Are Costing You More Than You Think</a></h2>
+                                <h2><a href="services.php">Why Manual Risk Assessments Are Costing You More Than You Think</a></h2>
                             </div>
                             <!-- Post Item Content End -->
 
                             <!-- Post Item Readmore Button Start-->
                             <div class="post-item-btn">
-                                <a href="services.html" class="readmore-btn">learn more</a>
+                                <a href="services.php" class="readmore-btn">learn more</a>
                             </div>
                             <!-- Post Item Readmore Button End-->
                         </div>
@@ -204,7 +204,7 @@
                     <div class="post-item wow fadeInUp" data-wow-delay="0.4s">
                         <!-- Post Featured Image Start-->
                         <div class="post-featured-image">
-                            <a href="services.html" data-cursor-text="View">
+                            <a href="services.php" data-cursor-text="View">
                                 <figure class="image-anime">
                                     <img src="images/post-3.jpg" alt="">
                                 </figure>    
@@ -216,13 +216,13 @@
                         <div class="post-item-body">
                             <!-- Post Item Content Start -->
                             <div class="post-item-content">
-                                <h2><a href="services.html">From Checkbox Compliance to True Security: Closing the Gap/a></h2>
+                                <h2><a href="services.php">From Checkbox Compliance to True Security: Closing the Gap/a></h2>
                             </div>
                             <!-- Post Item Content End -->
 
                             <!-- Post Item Readmore Button Start-->
                             <div class="post-item-btn">
-                                <a href="services.html" class="readmore-btn">learn more</a>
+                                <a href="services.php" class="readmore-btn">learn more</a>
                             </div>
                             <!-- Post Item Readmore Button End-->
                         </div>
@@ -236,7 +236,7 @@
                     <div class="post-item wow fadeInUp" data-wow-delay="0.6s">
                         <!-- Post Featured Image Start-->
                         <div class="post-featured-image">
-                            <a href="services.html" data-cursor-text="View">
+                            <a href="services.php" data-cursor-text="View">
                                 <figure class="image-anime">
                                     <img src="images/post-4.jpg" alt="">
                                 </figure>    
@@ -248,13 +248,13 @@
                         <div class="post-item-body">
                             <!-- Post Item Content Start -->
                             <div class="post-item-content">
-                                <h2><a href="services.html">How AI Is Redefining Threat Risk Assessment for Enterprise Security</a></h2>
+                                <h2><a href="services.php">How AI Is Redefining Threat Risk Assessment for Enterprise Security</a></h2>
                             </div>
                             <!-- Post Item Content End -->
 
                             <!-- Post Item Readmore Button Start-->
                             <div class="post-item-btn">
-                                <a href="services.html" class="readmore-btn">learn more</a>
+                                <a href="services.php" class="readmore-btn">learn more</a>
                             </div>
                             <!-- Post Item Readmore Button End-->
                         </div>
@@ -268,7 +268,7 @@
                     <div class="post-item wow fadeInUp" data-wow-delay="0.8s">
                         <!-- Post Featured Image Start-->
                         <div class="post-featured-image">
-                            <a href="services.html" data-cursor-text="View">
+                            <a href="services.php" data-cursor-text="View">
                                 <figure class="image-anime">
                                     <img src="images/post-5.jpg" alt="">
                                 </figure>    
@@ -280,13 +280,13 @@
                         <div class="post-item-body">
                             <!-- Post Item Content Start -->
                             <div class="post-item-content">
-                                <h2><a href="services.html">5 Cybersecurity Control Failures That Led to Major Enterprise Breaches</a></h2>
+                                <h2><a href="services.php">5 Cybersecurity Control Failures That Led to Major Enterprise Breaches</a></h2>
                             </div>
                             <!-- Post Item Content End -->
 
                             <!-- Post Item Readmore Button Start-->
                             <div class="post-item-btn">
-                                <a href="services.html" class="readmore-btn">learn more</a>
+                                <a href="services.php" class="readmore-btn">learn more</a>
                             </div>
                             <!-- Post Item Readmore Button End-->
                         </div>
@@ -300,7 +300,7 @@
                     <div class="post-item wow fadeInUp" data-wow-delay="1s">
                         <!-- Post Featured Image Start-->
                         <div class="post-featured-image">
-                            <a href="services.html" data-cursor-text="View">
+                            <a href="services.php" data-cursor-text="View">
                                 <figure class="image-anime">
                                     <img src="images/post-6.jpg" alt="">
                                 </figure>    
@@ -312,13 +312,13 @@
                         <div class="post-item-body">
                             <!-- Post Item Content Start -->
                             <div class="post-item-content">
-                                <h2><a href="services.html">Building a Risk-Aware Culture: Why Technology Alone Is Not Enough</a></h2>
+                                <h2><a href="services.php">Building a Risk-Aware Culture: Why Technology Alone Is Not Enough</a></h2>
                             </div>
                             <!-- Post Item Content End -->
 
                             <!-- Post Item Readmore Button Start-->
                             <div class="post-item-btn">
-                                <a href="services.html" class="readmore-btn">learn more</a>
+                                <a href="services.php" class="readmore-btn">learn more</a>
                             </div>
                             <!-- Post Item Readmore Button End-->
                         </div>
@@ -383,11 +383,11 @@
                         <div class="footer-links">
                             <h3>Quick Links</h3>
                             <ul>
-                                <li><a href="index.html">Home</a></li>
-                                <li><a href="about.html">About us</a></li>
-                                <li><a href="services.html">services</a></li>
-                                <li><a href="contact.html">contact us</a></li>
-                                <li><a href="blog.html">Blog</a></li>
+                                <li><a href="index.php">Home</a></li>
+                                <li><a href="about.php">About us</a></li>
+                                <li><a href="services.php">services</a></li>
+                                <li><a href="contact.php">contact us</a></li>
+                                <li><a href="blog.php">Blog</a></li>
                             </ul>
                         </div>
                         <!-- Footer Links End -->
@@ -396,10 +396,10 @@
                         <div class="footer-links">
                             <h3>Our Services</h3>
                             <ul>
-                                <li><a href="services.html">Automated Control Testing</a></li>
-                                <li><a href="services.html">Threat Risk Assessments</a></li>
-                                <li><a href="services.html">Compliance Management</a></li>
-                                <li><a href="services.html">Risk Posture Monitoring</a></li>
+                                <li><a href="services.php">Automated Control Testing</a></li>
+                                <li><a href="services.php">Threat Risk Assessments</a></li>
+                                <li><a href="services.php">Compliance Management</a></li>
+                                <li><a href="services.php">Risk Posture Monitoring</a></li>
                             </ul>
                         </div>
                         <!-- Footer Links End -->
@@ -411,7 +411,7 @@
                 <div class="col-lg-12">
                     <!-- Footer Copyright Start -->
                     <div class="footer-copyright-text">
-                        <p>Copyright © 2026 All Rights Reserved.</p>
+                        <p>Copyright Â© 2026 All Rights Reserved.</p>
                     </div>
                     <!-- Footer Copyright End -->
                 </div>
@@ -483,5 +483,6 @@
     </script>
 </body>
 </html>
+
 
 

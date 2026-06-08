@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="zxx">
 <head>
 	<!-- Meta -->
@@ -50,7 +50,7 @@
 			<nav class="navbar navbar-expand-lg">
 				<div class="container">
 					<!-- Logo Start -->
-					<a class="navbar-brand" href="index.html">
+					<a class="navbar-brand" href="index.php">
 						<img src="images/logo.png" alt="Logo">
 					</a>
 					<!-- Logo End -->
@@ -59,38 +59,23 @@
 					<div class="collapse navbar-collapse main-menu">
                         <div class="nav-menu-wrapper">
                             <ul class="navbar-nav mr-auto" id="menu">
-                                <li class="nav-item"><a class="nav-link" href="index.html">Home</a>
+                                <li class="nav-item"><a class="nav-link" href="index.php">Home</a>
                                     <!-- <ul>
-                                        <li class="nav-item"><a class="nav-link" href="index-2.html">Home - Main</a></li>
-                                        <li class="nav-item"><a class="nav-link" href="index-video.html">Home - Video</a></li>
-                                        <li class="nav-item"><a class="nav-link" href="index-slider.html">Home - Slider</a></li>
+                                        <li class="nav-item"><a class="nav-link" href="index-2.php">Home - Main</a></li>
+                                        <li class="nav-item"><a class="nav-link" href="index-video.php">Home - Video</a></li>
+                                        <li class="nav-item"><a class="nav-link" href="index-slider.php">Home - Slider</a></li>
                                     </ul> -->
                                 </li>
-                                <li class="nav-item"><a class="nav-link active" style="color:#BEF1DE;" href="about.html">About Us</a></li>
-                                <li class="nav-item"><a class="nav-link" href="services.html">Services</a></li>
-                                <li class="nav-item"><a class="nav-link" href="blog.html">Blog</a></li>
-                                <!-- <li class="nav-item submenu"><a class="nav-link" href="#">Pages</a>
-                                    <ul>
-                                        <li class="nav-item"><a class="nav-link" href="service-single.html">Service Details</a></li>
-                                        <li class="nav-item"><a class="nav-link" href="blog-single.html">Blog Details</a></li>
-                                        <li class="nav-item"><a class="nav-link" href="case-study.html">Case Study</a></li>
-                                        <li class="nav-item"><a class="nav-link" href="case-study-single.html">Case Study details</a></li>
-                                        <li class="nav-item"><a class="nav-link" href="team.html">Our Team</a></li>
-                                        <li class="nav-item"><a class="nav-link" href="team-single.html">Team Details</a></li>
-                                        <li class="nav-item"><a class="nav-link" href="testimonials.html">Testimonials</a></li>
-                                        <li class="nav-item"><a class="nav-link" href="image-gallery.html">Image Gallery</a></li>
-                                        <li class="nav-item"><a class="nav-link" href="video-gallery.html">Video Gallery</a></li>
-                                        <li class="nav-item"><a class="nav-link" href="faqs.html">FAQs</a></li>
-                                        <li class="nav-item"><a class="nav-link" href="404.html">404</a></li>
-                                    </ul>
-                                </li> -->
-                                <li class="nav-item"><a class="nav-link" href="contact.html">Contact Us</a></li>
+                                <li class="nav-item"><a class="nav-link active" style="color:#BEF1DE;" href="about.php">About Us</a></li>
+                                <li class="nav-item"><a class="nav-link" href="services.php">Services</a></li>
+                                <li class="nav-item"><a class="nav-link" href="blog.php">Blog</a></li>
+                                <li class="nav-item"><a class="nav-link" href="contact.php">Contact Us</a></li>
                             </ul>
                         </div>
                         
                         <!-- Header Btn Start -->
                         <div class="header-btn">
-                            <a href="contact.html" class="btn-default btn-highlighted">contact us</a>
+                            <a href="contact.php" class="btn-default btn-highlighted">contact us</a>
                         </div>
                         <!-- Header Btn End -->
 					</div>
@@ -264,7 +249,7 @@
                                     <li>Industry & Academic Collaborations</li>
                                 </ul>
                                 <p>Partnering with leading enterprises and security frameworks.</p>
-                                <a href="services.html" class="readmore-btn">Learn More</a>
+                                <a href="services.php" class="readmore-btn">Learn More</a>
                             </div>
                             <!-- About Counter Content End -->
                         </div>
@@ -355,7 +340,7 @@
 
                         <!-- Approach Button Start -->
                         <div class="approach-button wow fadeInUp" data-wow-delay="0.8s">
-                            <a href="pricing.html" class="btn-default">View Pricing Plans</a>
+                            <a href="pricing.php" class="btn-default">View Pricing Plans</a>
                         </div>
                         <!-- Approach Button End -->
                     </div>
@@ -455,7 +440,7 @@
 
                         <!-- What We Button Start -->
                         <div class="what-we-btn wow fadeInUp" data-wow-delay="0.4s">
-                            <a href="contact.html" class="btn-default btn-highlighted">contact us</a>
+                            <a href="contact.php" class="btn-default btn-highlighted">contact us</a>
                         </div>
                         <!-- What We Button End -->
 
@@ -504,7 +489,7 @@
                             </div>
                             <div class="what-we-content">
                                 <h3>Data Analysis & Interpretation</h3>
-                                <p>Our team translates complex datasets into clear, actionable insights — helping you make informed decisions backed by clarity.</p>
+                                <p>Our team translates complex datasets into clear, actionable insights â€” helping you make informed decisions backed by clarity.</p>
                             </div>
                         </div>
                         <!-- What We Item End -->
@@ -516,7 +501,7 @@
                             </div>
                             <div class="what-we-content">
                                 <h3>Continuous Risk Monitoring</h3>
-                                <p>Our platform continuously tracks risk levels against your thresholds — giving you real-time visibility and alerting when exposure spikes.</p>
+                                <p>Our platform continuously tracks risk levels against your thresholds â€” giving you real-time visibility and alerting when exposure spikes.</p>
                             </div>
                         </div>
                         <!-- What We Item End -->
@@ -637,7 +622,7 @@
 
                                 <!-- Why choose Button Start -->
                                 <div class="why-choose-btn wow fadeInUp" data-wow-delay="0.8s">
-                                    <a href="contact.html" class="btn-default">contact us</a>
+                                    <a href="contact.php" class="btn-default">contact us</a>
                                 </div>
                                 <!-- Why choose Button End -->
                             </div>  
@@ -719,7 +704,7 @@
                                                 <img src="images/testimonial-quote.svg" alt="">
                                             </div>
                                             <div class="testimonial-info">
-                                                <p>The continuous monitoring feature alone was worth every penny. We now get real-time alerts when risk exceeds our thresholds — it's completely changed our response strategy.</p>
+                                                <p>The continuous monitoring feature alone was worth every penny. We now get real-time alerts when risk exceeds our thresholds â€” it's completely changed our response strategy.</p>
                                             </div>
                                             <div class="author-content">
                                                 <h3>Grace Martin</h3>
@@ -781,7 +766,7 @@
 
                         <!-- Our Faqs Button Start -->
                         <div class="our-faqs-btn wow fadeInUp" data-wow-delay="0.4s">
-                            <a href="faqs.html" class="btn-default">View All Faqs</a>
+                            <a href="faqs.php" class="btn-default">View All Faqs</a>
                         </div>
                         <!-- Our Faqs Button End -->
                     </div>
@@ -924,11 +909,11 @@
                         <div class="footer-links">
                             <h3>Quick Links</h3>
                             <ul>
-                                <li><a href="index.html">Home</a></li>
-                                <li><a href="about.html">About us</a></li>
-                                <li><a href="services.html">services</a></li>
-                                <li><a href="contact.html">contact us</a></li>
-                                <li><a href="blog.html">Blog</a></li>
+                                <li><a href="index.php">Home</a></li>
+                                <li><a href="about.php">About us</a></li>
+                                <li><a href="services.php">services</a></li>
+                                <li><a href="contact.php">contact us</a></li>
+                                <li><a href="blog.php">Blog</a></li>
                             </ul>
                         </div>
                         <!-- Footer Links End -->
@@ -937,10 +922,10 @@
                         <div class="footer-links">
                             <h3>Our Services</h3>
                             <ul>
-                                <li><a href="services.html">Automated Control Testing</a></li>
-                                <li><a href="services.html">Threat Risk Assessments</a></li>
-                                <li><a href="services.html">Compliance Management</a></li>
-                                <li><a href="services.html">Risk Posture Monitoring</a></li>
+                                <li><a href="services.php">Automated Control Testing</a></li>
+                                <li><a href="services.php">Threat Risk Assessments</a></li>
+                                <li><a href="services.php">Compliance Management</a></li>
+                                <li><a href="services.php">Risk Posture Monitoring</a></li>
                             </ul>
                         </div>
                         <!-- Footer Links End -->
@@ -952,7 +937,7 @@
                 <div class="col-lg-12">
                     <!-- Footer Copyright Start -->
                     <div class="footer-copyright-text">
-                        <p>Copyright © 2026 All Rights Reserved.</p>
+                        <p>Copyright Â© 2026 All Rights Reserved.</p>
                     </div>
                     <!-- Footer Copyright End -->
                 </div>

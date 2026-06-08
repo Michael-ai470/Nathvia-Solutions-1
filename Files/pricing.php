@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="zxx">
 <head>
 	<!-- Meta -->
@@ -50,25 +50,25 @@
 			<nav class="navbar navbar-expand-lg">
 				<div class="container">
 					<!-- Logo Start -->
-				<a class="navbar-brand" href="index.html">
+				<a class="navbar-brand" href="index.php">
 					<img src="images/logo.png" alt="Logo">
 				</a>
 					<!-- Main Menu Start -->
 					<div class="collapse navbar-collapse main-menu">
                         <div class="nav-menu-wrapper">
                             <ul class="navbar-nav mr-auto" id="menu">
-                                <li class="nav-item"><a class="nav-link" href="index.html">Home</a>
+                                <li class="nav-item"><a class="nav-link" href="index.php">Home</a>
                                 </li>
-                                <li class="nav-item"><a class="nav-link" href="about.html">About Us</a></li>
-                                <li class="nav-item"><a class="nav-link" href="services.html">Services</a></li>
-                                <li class="nav-item"><a class="nav-link" href="blog.html">Blog</a></li>
-                                <li class="nav-item"><a class="nav-link" href="contact.html">Contact Us</a></li>
+                                <li class="nav-item"><a class="nav-link" href="about.php">About Us</a></li>
+                                <li class="nav-item"><a class="nav-link" href="services.php">Services</a></li>
+                                <li class="nav-item"><a class="nav-link" href="blog.php">Blog</a></li>
+                                <li class="nav-item"><a class="nav-link" href="contact.php">Contact Us</a></li>
                             </ul>
                         </div>
                         
                         <!-- Header Btn Start -->
                         <div class="header-btn">
-                            <a href="contact.html" class="btn-default btn-highlighted">contact us</a>
+                            <a href="contact.php" class="btn-default btn-highlighted">contact us</a>
                         </div>
                         <!-- Header Btn End -->
 					</div>
@@ -157,7 +157,7 @@
 
                                 <!-- Pricing Button Start -->
                                 <div class="pricing-btn">
-                                    <a href="contact.html" class="btn-default">Get started</a>
+                                    <a href="contact.php" class="btn-default">Get started</a>
                                 </div>
                                 <!-- Pricing Button End -->
                             </div>
@@ -201,7 +201,7 @@
 
                                 <!-- Pricing Button Start -->
                                 <div class="pricing-btn">
-                                    <a href="contact.html" class="btn-default">Get started</a>
+                                    <a href="contact.php" class="btn-default">Get started</a>
                                 </div>
                                 <!-- Pricing Button End -->
                             </div>
@@ -245,7 +245,7 @@
 
                                 <!-- Pricing Button Start -->
                                 <div class="pricing-btn">
-                                    <a href="contact.html" class="btn-default">Get started</a>
+                                    <a href="contact.php" class="btn-default">Get started</a>
                                 </div>
                                 <!-- Pricing Button End -->
                             </div>
@@ -380,7 +380,7 @@
 
                                 <!-- Why choose Button Start -->
                                 <div class="why-choose-btn wow fadeInUp" data-wow-delay="0.8s">
-                                    <a href="contact.html" class="btn-default">contact us</a>
+                                    <a href="contact.php" class="btn-default">contact us</a>
                                 </div>
                                 <!-- Why choose Button End -->
                             </div>  
@@ -420,7 +420,7 @@
 
                         <!-- Our Faqs Button Start -->
                         <div class="our-faqs-btn wow fadeInUp" data-wow-delay="0.4s">
-                            <a href="contact.html" class="btn-default">Get in touch</a>
+                            <a href="contact.php" class="btn-default">Get in touch</a>
                         </div>
                         <!-- Our Faqs Button End -->
                     </div>
@@ -454,7 +454,7 @@
                             </h2>
                             <div id="collapse2" class="accordion-collapse collapse" aria-labelledby="heading2" data-bs-parent="#accordion">
                                 <div class="accordion-body">
-                                    <p>Initial risk assessments typically complete within 2–4 weeks depending on the scope and number of controls. Full continuous monitoring setup can be operational within 30 days of onboarding.</p>
+                                    <p>Initial risk assessments typically complete within 2â€“4 weeks depending on the scope and number of controls. Full continuous monitoring setup can be operational within 30 days of onboarding.</p>
                                 </div>
                             </div>
                         </div>
@@ -563,11 +563,11 @@
                         <div class="footer-links">
                             <h3>Quick Links</h3>
                             <ul>
-                                <li><a href="index.html">Home</a></li>
-                                <li><a href="about.html">About us</a></li>
-                                <li><a href="services.html">services</a></li>
-                                <li><a href="contact.html">contact us</a></li>
-                                <li><a href="blog.html">Blog</a></li>
+                                <li><a href="index.php">Home</a></li>
+                                <li><a href="about.php">About us</a></li>
+                                <li><a href="services.php">services</a></li>
+                                <li><a href="contact.php">contact us</a></li>
+                                <li><a href="blog.php">Blog</a></li>
                             </ul>
                         </div>
                         <!-- Footer Links End -->
@@ -576,10 +576,10 @@
                         <div class="footer-links">
                             <h3>Our Services</h3>
                             <ul>
-                                <li><a href="services.html">Automated Control Testing</a></li>
-                                <li><a href="services.html">Threat Risk Assessments</a></li>
-                                <li><a href="services.html">Compliance Management</a></li>
-                                <li><a href="services.html">Risk Posture Monitoring</a></li>
+                                <li><a href="services.php">Automated Control Testing</a></li>
+                                <li><a href="services.php">Threat Risk Assessments</a></li>
+                                <li><a href="services.php">Compliance Management</a></li>
+                                <li><a href="services.php">Risk Posture Monitoring</a></li>
                             </ul>
                         </div>
                         <!-- Footer Links End -->
@@ -591,7 +591,7 @@
                 <div class="col-lg-12">
                     <!-- Footer Copyright Start -->
                     <div class="footer-copyright-text">
-                        <p>Copyright © 2026 All Rights Reserved.</p>
+                        <p>Copyright Â© 2026 All Rights Reserved.</p>
                     </div>
                     <!-- Footer Copyright End -->
                 </div>
@@ -665,5 +665,6 @@
     </script>
 </body>
 </html>
+
 
 

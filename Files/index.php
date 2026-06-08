@@ -875,7 +875,7 @@
 
                         <!-- Pricing Button Start -->
                         <div class="our-pricing-btn wow fadeInUp" data-wow-delay="0.4s">
-                            <a href="pricing.html" class="btn-default">View Pricing Plans</a>
+                            <a href="pricing.php" class="btn-default">View Pricing Plans</a>
                         </div>
                         <!-- Pricing Button End -->
                     </div>   
