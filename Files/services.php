@@ -50,25 +50,25 @@
 			<nav class="navbar navbar-expand-lg">
 				<div class="container">
 					<!-- Logo Start -->
-				<a class="navbar-brand" href="index.html">
+				<a class="navbar-brand" href="index.php">
 					<img src="images/logo.png" alt="Logo">
 				</a>
 					<!-- Main Menu Start -->
 					<div class="collapse navbar-collapse main-menu">
                         <div class="nav-menu-wrapper">
                             <ul class="navbar-nav mr-auto" id="menu">
-                                <li class="nav-item"><a class="nav-link" href="index.html">Home</a>
+                                <li class="nav-item"><a class="nav-link" href="index.php">Home</a>
                                 </li>
-                                <li class="nav-item"><a class="nav-link" href="about.html">About Us</a></li>
-                                <li class="nav-item"><a class="nav-link active" style="color:#BEF1DE;" href="services.html">Services</a></li>
-                                <li class="nav-item"><a class="nav-link" href="blog.html">Blog</a></li>
-                                <li class="nav-item"><a class="nav-link" href="contact.html">Contact Us</a></li>
+                                <li class="nav-item"><a class="nav-link" href="about.php">About Us</a></li>
+                                <li class="nav-item"><a class="nav-link active" style="color:#BEF1DE;" href="services.php">Services</a></li>
+                                <li class="nav-item"><a class="nav-link" href="blog.php">Blog</a></li>
+                                <li class="nav-item"><a class="nav-link" href="contact.php">Contact Us</a></li>
                             </ul>
                         </div>
                         
                         <!-- Header Btn Start -->
                         <div class="header-btn">
-                            <a href="contact.html" class="btn-default btn-highlighted">contact us</a>
+                            <a href="contact.php" class="btn-default btn-highlighted">contact us</a>
                         </div>
                         <!-- Header Btn End -->
 					</div>
@@ -158,7 +158,7 @@
                                 
                                 <!-- Service Content Start -->
                                 <div class="service-content">
-                                    <h3><a href="service-single.html">Threat & Risk Assessment</a></h3>
+                                    <h3><a href="service-single.php">Threat & Risk Assessment</a></h3>
                                     <p>Automated evaluation of your threat landscape</p>
                                 </div>
                                 <!-- Service Content End -->
@@ -191,7 +191,7 @@
                                 
                                 <!-- Service Content Start -->
                                 <div class="service-content">
-                                    <h3><a href="service-single.html">Control Automation</a></h3>
+                                    <h3><a href="service-single.php">Control Automation</a></h3>
                                     <p>Automating testing of your security controls</p>
                                 </div>
                                 <!-- Service Content End -->
@@ -224,7 +224,7 @@
                                 
                                 <!-- Service Content Start -->
                                 <div class="service-content">
-                                    <h3><a href="service-single.html">Risk Posture Monitoring</a></h3>
+                                    <h3><a href="service-single.php">Risk Posture Monitoring</a></h3>
                                     <p>Visualizing enterprise security posture in real-time</p>
                                 </div>
                                 <!-- Service Content End -->
@@ -257,7 +257,7 @@
                                 
                                 <!-- Service Content Start -->
                                 <div class="service-content">
-                                    <h3><a href="service-single.html">Compliance Management</a></h3>
+                                    <h3><a href="service-single.php">Compliance Management</a></h3>
                                     <p>Mapping controls to major compliance frameworks</p>
                                 </div>
                                 <!-- Service Content End -->
@@ -290,7 +290,7 @@
                                 
                                 <!-- Service Content Start -->
                                 <div class="service-content">
-                                    <h3><a href="service-single.html">Incident Response</a></h3>
+                                    <h3><a href="service-single.php">Incident Response</a></h3>
                                     <p>Rapid detection and containment of breaches</p>
                                 </div>
                                 <!-- Service Content End -->
@@ -323,7 +323,7 @@
                                 
                                 <!-- Service Content Start -->
                                 <div class="service-content">
-                                    <h3><a href="service-single.html">Vulnerability Management</a></h3>
+                                    <h3><a href="service-single.php">Vulnerability Management</a></h3>
                                     <p>Scanning and prioritizing infrastructure vulnerabilities continuously</p>
                                 </div>
                                 <!-- Service Content End -->
@@ -356,7 +356,7 @@
                                 
                                 <!-- Service Content Start -->
                                 <div class="service-content">
-                                    <h3><a href="service-single.html">Security Awareness Training</a></h3>
+                                    <h3><a href="service-single.php">Security Awareness Training</a></h3>
                                     <p>Building security-conscious behavior across your workforce</p>
                                 </div>
                                 <!-- Service Content End -->
@@ -389,7 +389,7 @@
                                 
                                 <!-- Service Content Start -->
                                 <div class="service-content">
-                                    <h3><a href="service-single.html">Third-Party Risk Management</a></h3>
+                                    <h3><a href="service-single.php">Third-Party Risk Management</a></h3>
                                     <p>Monitoring vendor security to eliminate supply chain risks</p>
                                 </div>
                                 <!-- Service Content End -->
@@ -420,7 +420,7 @@
 
                         <!-- What We Button Start -->
                         <div class="what-we-btn wow fadeInUp" data-wow-delay="0.4s">
-                            <a href="contact.html" class="btn-default btn-highlighted">contact us</a>
+                            <a href="contact.php" class="btn-default btn-highlighted">contact us</a>
                         </div>
                         <!-- What We Button End -->
 
@@ -541,7 +541,7 @@
 
                                     <!-- Pricing Button Start -->
                                     <div class="pricing-btn">
-                                        <a href="contact.html" class="btn-default">Get started</a>
+                                        <a href="contact.php" class="btn-default">Get started</a>
                                     </div>
                                     <!-- Pricing Button End -->
                                 </div>
@@ -583,7 +583,7 @@
 
                                     <!-- Pricing Button Start -->
                                     <div class="pricing-btn">
-                                        <a href="contact.html" class="btn-default">Get started</a>
+                                        <a href="contact.php" class="btn-default">Get started</a>
                                     </div>
                                     <!-- Pricing Button End -->
                                 </div>
@@ -628,7 +628,7 @@
 
                         <!-- Our Faqs Button Start -->
                         <div class="our-faqs-btn wow fadeInUp" data-wow-delay="0.4s">
-                            <a href="contact.html" class="btn-default">Get in touch</a>
+                            <a href="contact.php" class="btn-default">Get in touch</a>
                         </div>
                         <!-- Our Faqs Button End -->
                     </div>
@@ -771,11 +771,11 @@
                         <div class="footer-links">
                             <h3>Quick Links</h3>
                             <ul>
-                                <li><a href="index.html">Home</a></li>
-                                <li><a href="about.html">About us</a></li>
-                                <li><a href="services.html">services</a></li>
-                                <li><a href="contact.html">contact us</a></li>
-                                <li><a href="blog.html">Blog</a></li>
+                                <li><a href="index.php">Home</a></li>
+                                <li><a href="about.php">About us</a></li>
+                                <li><a href="services.php">services</a></li>
+                                <li><a href="contact.php">contact us</a></li>
+                                <li><a href="blog.php">Blog</a></li>
                             </ul>
                         </div>
                         <!-- Footer Links End -->
@@ -784,10 +784,10 @@
                         <div class="footer-links">
                             <h3>Our Services</h3>
                             <ul>
-                                <li><a href="services.html">Automated Control Testing</a></li>
-                                <li><a href="services.html">Threat Risk Assessments</a></li>
-                                <li><a href="services.html">Compliance Management</a></li>
-                                <li><a href="services.html">Risk Posture Monitoring</a></li>
+                                <li><a href="services.php">Automated Control Testing</a></li>
+                                <li><a href="services.php">Threat Risk Assessments</a></li>
+                                <li><a href="services.php">Compliance Management</a></li>
+                                <li><a href="services.php">Risk Posture Monitoring</a></li>
                             </ul>
                         </div>
                         <!-- Footer Links End -->

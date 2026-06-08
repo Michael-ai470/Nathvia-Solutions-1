@@ -50,7 +50,7 @@
 			<nav class="navbar navbar-expand-lg">
 				<div class="container">
 					<!-- Logo Start -->
-					<a class="navbar-brand" href="index.html">
+					<a class="navbar-brand" href="index.php">
 						<img src="images/logo.png" alt="Logo">
 					</a>
 					<!-- Logo End -->
@@ -59,18 +59,18 @@
 					<div class="collapse navbar-collapse main-menu">
                         <div class="nav-menu-wrapper">
                             <ul class="navbar-nav mr-auto" id="menu">
-                                <li class="nav-item"><a class="nav-link active" style="color:#BEF1DE;" href="index.html">Home</a>
+                                <li class="nav-item"><a class="nav-link active" style="color:#BEF1DE;" href="index.php">Home</a>
                                 </li>
-                                <li class="nav-item"><a class="nav-link" href="about.html">About Us</a></li>
-                                <li class="nav-item"><a class="nav-link" href="services.html">Services</a></li>
-                                <li class="nav-item"><a class="nav-link" href="blog.html">Blog</a></li>
-                                <li class="nav-item"><a class="nav-link" href="contact.html">Contact Us</a></li>
+                                <li class="nav-item"><a class="nav-link" href="about.php">About Us</a></li>
+                                <li class="nav-item"><a class="nav-link" href="services.php">Services</a></li>
+                                <li class="nav-item"><a class="nav-link" href="blog.php">Blog</a></li>
+                                <li class="nav-item"><a class="nav-link" href="contact.php">Contact Us</a></li>
                             </ul>
                         </div>
                         
                         <!-- Header Btn Start -->
                         <div class="header-btn">
-                            <a href="contact.html" class="btn-default btn-highlighted">contact us</a>
+                            <a href="contact.php" class="btn-default btn-highlighted">contact us</a>
                         </div>
                         <!-- Header Btn End -->
 					</div>
@@ -111,8 +111,8 @@
                         
                         <!-- Hero Button Start -->
                         <div class="hero-btn wow fadeInUp" data-wow-delay="0.4s">
-                            <a href="contact.html" class="btn-default btn-highlighted">Get Started</a>
-                            <a href="services.html" class="btn-default btn-border">Explore Our Platform</a>
+                            <a href="contact.php" class="btn-default btn-highlighted">Get Started</a>
+                            <a href="services.php" class="btn-default btn-border">Explore Our Platform</a>
                         </div>
                         <!-- Hero Button End -->
 
@@ -315,7 +315,7 @@
                                     <li>Industry & Academic Collaborations</li>
                                 </ul>
                                 <p>Partnering with leading enterprises and security frameworks.</p>
-                                <a href="about.html" class="readmore-btn">Learn More</a>
+                                <a href="about.php" class="readmore-btn">Learn More</a>
                             </div>
                             <!-- About Counter Content End -->
                         </div>
@@ -397,7 +397,7 @@
                             
                             <!-- Service Content Start -->
                             <div class="service-content">
-                                <h3><a href="service.html">Threat Assessment</a></h3>
+                                <h3><a href="service.php">Threat Assessment</a></h3>
                                 <p>Automated, continuous evaluation of your organization's threat landscape against real-time risk tolerance thresholds.</p>
                             </div>
                             <!-- Service Content End -->
@@ -431,7 +431,7 @@
                             
                             <!-- Service Content Start -->
                             <div class="service-content">
-                                <h3><a href="service.html">Control Automation</a></h3>
+                                <h3><a href="service.php">Control Automation</a></h3>
                                 <p>Automate testing and validation of security controls across your entire technology stack with zero manual overhead.</p>
                             </div>
                             <!-- Service Content End -->
@@ -464,7 +464,7 @@
                             
                             <!-- Service Content Start -->
                             <div class="service-content">
-                                <h3><a href="service.html">Risk Posture Monitoring</a></h3>
+                                <h3><a href="service.php">Risk Posture Monitoring</a></h3>
                                 <p>Real-time dashboards that visualize enterprise-wide security posture and flag deviations instantly.</p>
                             </div>
                             <!-- Service Content End -->
@@ -497,7 +497,7 @@
                             
                             <!-- Service Content Start -->
                             <div class="service-content">
-                                <h3><a href="service.html">Compliance Management</a></h3>
+                                <h3><a href="service.php">Compliance Management</a></h3>
                                 <p>Map controls to major frameworks (ISO 27001, NIST, SOC 2) and generate audit-ready reports automatically.</p>
                             </div>
                             <!-- Service Content End -->
@@ -510,7 +510,7 @@
                 <div class="col-lg-12">
                     <!-- Section Footer Text Start-->
                     <div class="section-footer-text wow fadeInUp" data-wow-delay="0.8s">
-                        <p><span>Free</span>Explore all capabilities that shape modern security - <a href="contact.html">Read More!</a></p>
+                        <p><span>Free</span>Explore all capabilities that shape modern security - <a href="contact.php">Read More!</a></p>
                     </div>
                     <!-- Section Footer Text End-->
                 </div>
@@ -628,7 +628,7 @@
 
                                 <!-- Why choose Button Start -->
                                 <div class="why-choose-btn wow fadeInUp" data-wow-delay="0.8s">
-                                    <a href="contact.html" class="btn-default">contact us</a>
+                                    <a href="contact.php" class="btn-default">contact us</a>
                                 </div>
                                 <!-- Why choose Button End -->
                             </div>  
@@ -668,7 +668,7 @@
 
                         <!-- What We Button Start -->
                         <div class="what-we-btn wow fadeInUp" data-wow-delay="0.4s">
-                            <a href="contact.html" class="btn-default btn-highlighted">contact us</a>
+                            <a href="contact.php" class="btn-default btn-highlighted">contact us</a>
                         </div>
                         <!-- What We Button End -->
 
@@ -906,7 +906,7 @@
 
                                     <!-- Pricing Button Start -->
                                     <div class="pricing-btn">
-                                        <a href="contact.html" class="btn-default">Get started</a>
+                                        <a href="contact.php" class="btn-default">Get started</a>
                                     </div>
                                     <!-- Pricing Button End -->
                                 </div>
@@ -948,7 +948,7 @@
 
                                     <!-- Pricing Button Start -->
                                     <div class="pricing-btn">
-                                        <a href="contact.html" class="btn-default">Get started</a>
+                                        <a href="contact.php" class="btn-default">Get started</a>
                                     </div>
                                     <!-- Pricing Button End -->
                                 </div>
@@ -993,7 +993,7 @@
 
                         <!-- Our Faqs Button Start -->
                         <div class="our-faqs-btn wow fadeInUp" data-wow-delay="0.4s">
-                            <a href="contact.html" class="btn-default">Get in touch</a>
+                            <a href="contact.php" class="btn-default">Get in touch</a>
                         </div>
                         <!-- Our Faqs Button End -->
                     </div>
@@ -1203,7 +1203,7 @@
                 <div class="col-lg-6">
                     <!-- Section Button Start -->
                     <div class="section-btn wow fadeInUp" data-wow-delay="0.2s">
-                        <a href="blog.html" class="btn-default">view all blogs</a>
+                        <a href="blog.php" class="btn-default">view all blogs</a>
                     </div>
                     <!-- Section Button End -->
                 </div>
@@ -1215,7 +1215,7 @@
                     <div class="post-item wow fadeInUp">
                         <!-- Post Featured Image Start-->
                         <div class="post-featured-image">
-                            <a href="blog.html" data-cursor-text="View">
+                            <a href="blog.php" data-cursor-text="View">
                                 <figure class="image-anime">
                                     <img src="images/post-1.jpeg" alt="">
                                 </figure>    
@@ -1227,13 +1227,13 @@
                         <div class="post-item-body">
                             <!-- Post Item Content Start -->
                             <div class="post-item-content">
-                                <h2><a href="blog.html">The Role of Continuous Control Monitoring in Modern Enterprise Security</a></h2>
+                                <h2><a href="blog.php">The Role of Continuous Control Monitoring in Modern Enterprise Security</a></h2>
                             </div>
                             <!-- Post Item Content End -->
 
                             <!-- Post Item Readmore Button Start-->
                             <div class="post-item-btn">
-                                <a href="blog.html" class="readmore-btn">learn more</a>
+                                <a href="blog.php" class="readmore-btn">learn more</a>
                             </div>
                             <!-- Post Item Readmore Button End-->
                         </div>
@@ -1247,7 +1247,7 @@
                     <div class="post-item wow fadeInUp" data-wow-delay="0.2s">
                         <!-- Post Featured Image Start-->
                         <div class="post-featured-image">
-                            <a href="blog.html" data-cursor-text="View">
+                            <a href="blog.php" data-cursor-text="View">
                                 <figure class="image-anime">
                                     <img src="images/post-2.jpg" alt="">
                                 </figure>    
@@ -1259,13 +1259,13 @@
                         <div class="post-item-body">
                             <!-- Post Item Content Start -->
                             <div class="post-item-content">
-                                <h2><a href="blog.html">From Reactive to Proactive: How AI Is Reshaping Threat Risk Assessments</a></h2>
+                                <h2><a href="blog.php">From Reactive to Proactive: How AI Is Reshaping Threat Risk Assessments</a></h2>
                             </div>
                             <!-- Post Item Content End -->
 
                             <!-- Post Item Readmore Button Start-->
                             <div class="post-item-btn">
-                                <a href="blog.html" class="readmore-btn">learn more</a>
+                                <a href="blog.php" class="readmore-btn">learn more</a>
                             </div>
                             <!-- Post Item Readmore Button End-->
                         </div>
@@ -1279,7 +1279,7 @@
                     <div class="post-item wow fadeInUp" data-wow-delay="0.4s">
                         <!-- Post Featured Image Start-->
                         <div class="post-featured-image">
-                            <a href="blog.html" data-cursor-text="View">
+                            <a href="blog.php" data-cursor-text="View">
                                 <figure class="image-anime">
                                     <img src="images/post-3.jpg" alt="">
                                 </figure>    
@@ -1291,13 +1291,13 @@
                         <div class="post-item-body">
                             <!-- Post Item Content Start -->
                             <div class="post-item-content">
-                                <h2><a href="blog.html">Case Spotlight: Achieving SOC 2 Readiness in Record Time with Nathvia</a></h2>
+                                <h2><a href="blog.php">Case Spotlight: Achieving SOC 2 Readiness in Record Time with Nathvia</a></h2>
                             </div>
                             <!-- Post Item Content End -->
 
                             <!-- Post Item Readmore Button Start-->
                             <div class="post-item-btn">
-                                <a href="blog.html" class="readmore-btn">learn more</a>
+                                <a href="blog.php" class="readmore-btn">learn more</a>
                             </div>
                             <!-- Post Item Readmore Button End-->
                         </div>
@@ -1361,11 +1361,11 @@
                         <div class="footer-links">
                             <h3>Quick Links</h3>
                             <ul>
-                                <li><a href="index.html">Home</a></li>
-                                <li><a href="about.html">About us</a></li>
-                                <li><a href="services.html">services</a></li>
-                                <li><a href="contact.html">contact us</a></li>
-                                <li><a href="blog.html">Blog</a></li>
+                                <li><a href="index.php">Home</a></li>
+                                <li><a href="about.php">About us</a></li>
+                                <li><a href="services.php">services</a></li>
+                                <li><a href="contact.php">contact us</a></li>
+                                <li><a href="blog.php">Blog</a></li>
                             </ul>
                         </div>
                         <!-- Footer Links End -->
@@ -1374,10 +1374,10 @@
                         <div class="footer-links">
                             <h3>Our Services</h3>
                             <ul>
-                                <li><a href="services.html">Automated Control Testing</a></li>
-                                <li><a href="services.html">Threat Risk Assessments</a></li>
-                                <li><a href="services.html">Compliance Management</a></li>
-                                <li><a href="services.html">Risk Posture Monitoring</a></li>
+                                <li><a href="services.php">Automated Control Testing</a></li>
+                                <li><a href="services.php">Threat Risk Assessments</a></li>
+                                <li><a href="services.php">Compliance Management</a></li>
+                                <li><a href="services.php">Risk Posture Monitoring</a></li>
                             </ul>
                         </div>
                         <!-- Footer Links End -->
