@@ -124,4 +124,14 @@ class Cursor {
     }
 }
 // Init cursor
-const cursor = new Cursor();
+if (typeof jQuery !== 'undefined') {
+    jQuery(function() {
+        new Cursor();
+    });
+} else {
+    window.addEventListener('DOMContentLoaded', function() {
+        if (typeof jQuery !== 'undefined') {
+            new Cursor();
+        }
+    });
+}
